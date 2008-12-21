@@ -1,0 +1,1146 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		052C2F190EE6148B0023E46D /* PLInstrument */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 052C2F290EE614AD0023E46D /* Build configuration list for PBXAggregateTarget "PLInstrument" */;
+			buildPhases = (
+			);
+			dependencies = (
+				052C2F210EE614950023E46D /* PBXTargetDependency */,
+				052C2F1F0EE614950023E46D /* PBXTargetDependency */,
+				052C2F1D0EE614950023E46D /* PBXTargetDependency */,
+				052C2FD30EE61C230023E46D /* PBXTargetDependency */,
+			);
+			name = PLInstrument;
+			productName = ActorKit;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		052C2FE80EE61CA60023E46D /* PLInstrument.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 05389E820EE6111600F8AA6F /* PLInstrument.framework */; };
+		052C2FFC0EE61CFA0023E46D /* PLInstrument.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05389E820EE6111600F8AA6F /* PLInstrument.framework */; };
+		052C30230EE61D8B0023E46D /* PLInstrument.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 05389E820EE6111600F8AA6F /* PLInstrument.framework */; };
+		052C30260EE61D910023E46D /* PLInstrument.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05389E820EE6111600F8AA6F /* PLInstrument.framework */; };
+		05411B0E0E47B385009E3C18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05411B0C0E47B385009E3C18 /* Foundation.framework */; };
+		05D9F91B0EFDCE6300D907BD /* PLInstrument.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F90E0EFDCE6300D907BD /* PLInstrument.h */; };
+		05D9F91C0EFDCE6300D907BD /* PLInstrumentCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F90F0EFDCE6300D907BD /* PLInstrumentCase.h */; };
+		05D9F91D0EFDCE6300D907BD /* PLInstrumentCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9100EFDCE6300D907BD /* PLInstrumentCase.m */; };
+		05D9F91E0EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9110EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.h */; };
+		05D9F91F0EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9120EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.m */; };
+		05D9F9200EFDCE6300D907BD /* PLInstrumentObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9130EFDCE6300D907BD /* PLInstrumentObjC.h */; };
+		05D9F9210EFDCE6300D907BD /* PLInstrumentResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9140EFDCE6300D907BD /* PLInstrumentResult.h */; };
+		05D9F9220EFDCE6300D907BD /* PLInstrumentResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9150EFDCE6300D907BD /* PLInstrumentResult.m */; };
+		05D9F9230EFDCE6300D907BD /* PLInstrumentResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9160EFDCE6300D907BD /* PLInstrumentResultHandler.h */; };
+		05D9F9240EFDCE6300D907BD /* PLInstrumentRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9170EFDCE6300D907BD /* PLInstrumentRunner.h */; };
+		05D9F9250EFDCE6300D907BD /* PLInstrumentRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9180EFDCE6300D907BD /* PLInstrumentRunner.m */; };
+		05D9F9260EFDCE6300D907BD /* PLInstrumentTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9190EFDCE6300D907BD /* PLInstrumentTime.h */; };
+		05D9F9270EFDCE6300D907BD /* PLInstrumentTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F91A0EFDCE6300D907BD /* PLInstrumentTime.m */; };
+		05D9F9280EFDCE6300D907BD /* PLInstrument.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F90E0EFDCE6300D907BD /* PLInstrument.h */; };
+		05D9F9290EFDCE6300D907BD /* PLInstrumentCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F90F0EFDCE6300D907BD /* PLInstrumentCase.h */; };
+		05D9F92A0EFDCE6300D907BD /* PLInstrumentCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9100EFDCE6300D907BD /* PLInstrumentCase.m */; };
+		05D9F92B0EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9110EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.h */; };
+		05D9F92C0EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9120EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.m */; };
+		05D9F92D0EFDCE6300D907BD /* PLInstrumentObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9130EFDCE6300D907BD /* PLInstrumentObjC.h */; };
+		05D9F92E0EFDCE6300D907BD /* PLInstrumentResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9140EFDCE6300D907BD /* PLInstrumentResult.h */; };
+		05D9F92F0EFDCE6300D907BD /* PLInstrumentResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9150EFDCE6300D907BD /* PLInstrumentResult.m */; };
+		05D9F9300EFDCE6300D907BD /* PLInstrumentResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9160EFDCE6300D907BD /* PLInstrumentResultHandler.h */; };
+		05D9F9310EFDCE6300D907BD /* PLInstrumentRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9170EFDCE6300D907BD /* PLInstrumentRunner.h */; };
+		05D9F9320EFDCE6300D907BD /* PLInstrumentRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9180EFDCE6300D907BD /* PLInstrumentRunner.m */; };
+		05D9F9330EFDCE6300D907BD /* PLInstrumentTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9190EFDCE6300D907BD /* PLInstrumentTime.h */; };
+		05D9F9340EFDCE6300D907BD /* PLInstrumentTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F91A0EFDCE6300D907BD /* PLInstrumentTime.m */; };
+		05D9F9350EFDCE6300D907BD /* PLInstrument.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F90E0EFDCE6300D907BD /* PLInstrument.h */; };
+		05D9F9360EFDCE6300D907BD /* PLInstrumentCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F90F0EFDCE6300D907BD /* PLInstrumentCase.h */; };
+		05D9F9370EFDCE6300D907BD /* PLInstrumentCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9100EFDCE6300D907BD /* PLInstrumentCase.m */; };
+		05D9F9380EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9110EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.h */; };
+		05D9F9390EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9120EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.m */; };
+		05D9F93A0EFDCE6300D907BD /* PLInstrumentObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9130EFDCE6300D907BD /* PLInstrumentObjC.h */; };
+		05D9F93B0EFDCE6300D907BD /* PLInstrumentResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9140EFDCE6300D907BD /* PLInstrumentResult.h */; };
+		05D9F93C0EFDCE6300D907BD /* PLInstrumentResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9150EFDCE6300D907BD /* PLInstrumentResult.m */; };
+		05D9F93D0EFDCE6300D907BD /* PLInstrumentResultHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9160EFDCE6300D907BD /* PLInstrumentResultHandler.h */; };
+		05D9F93E0EFDCE6300D907BD /* PLInstrumentRunner.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9170EFDCE6300D907BD /* PLInstrumentRunner.h */; };
+		05D9F93F0EFDCE6300D907BD /* PLInstrumentRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9180EFDCE6300D907BD /* PLInstrumentRunner.m */; };
+		05D9F9400EFDCE6300D907BD /* PLInstrumentTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F9190EFDCE6300D907BD /* PLInstrumentTime.h */; };
+		05D9F9410EFDCE6300D907BD /* PLInstrumentTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F91A0EFDCE6300D907BD /* PLInstrumentTime.m */; };
+		05D9F9450EFDCE7500D907BD /* PLInstrumentResultTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9420EFDCE7500D907BD /* PLInstrumentResultTests.m */; };
+		05D9F9460EFDCE7500D907BD /* PLInstrumentRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9430EFDCE7500D907BD /* PLInstrumentRunnerTests.m */; };
+		05D9F9470EFDCE7500D907BD /* PLInstrumentTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D9F9440EFDCE7500D907BD /* PLInstrumentTimeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		052C2EDB0EE613420023E46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05389E810EE6111600F8AA6F;
+			remoteInfo = "ActorKit-MacOSX";
+		};
+		052C2F1C0EE614950023E46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052C2EFB0EE613E40023E46D;
+			remoteInfo = "ActorKit-iPhoneSimulator";
+		};
+		052C2F1E0EE614950023E46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052C2E460EE6127E0023E46D;
+			remoteInfo = "ActorKit-iPhoneOS";
+		};
+		052C2F200EE614950023E46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05389E810EE6111600F8AA6F;
+			remoteInfo = "ActorKit-MacOSX";
+		};
+		052C2F3E0EE616640023E46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05389E810EE6111600F8AA6F;
+			remoteInfo = "ActorKit-MacOSX";
+		};
+		052C2F400EE616670023E46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05389E810EE6111600F8AA6F;
+			remoteInfo = "ActorKit-MacOSX";
+		};
+		052C2F4D0EE616E60023E46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052C2EFB0EE613E40023E46D;
+			remoteInfo = "ActorKit-iPhoneSimulator";
+		};
+		052C2F4F0EE616E60023E46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052C2E460EE6127E0023E46D;
+			remoteInfo = "ActorKit-iPhoneOS";
+		};
+		052C2FD20EE61C230023E46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05411ACB0E47AD0B009E3C18;
+			remoteInfo = "Tests-MacOSX";
+		};
+		052C30280EE61D930023E46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05389E810EE6111600F8AA6F;
+			remoteInfo = "ActorKit-MacOSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		052C30020EE61D030023E46D /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				052C2FE80EE61CA60023E46D /* PLInstrument.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052C30370EE61DB90023E46D /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				052C30230EE61D8B0023E46D /* PLInstrument.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		052C2E470EE6127E0023E46D /* libPLInstrument-iphoneos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPLInstrument-iphoneos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		052C2EFC0EE613E40023E46D /* libPLInstrument-iphonesimulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPLInstrument-iphonesimulator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05389E820EE6111600F8AA6F /* PLInstrument.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PLInstrument.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05389E9E0EE6116600F8AA6F /* PLInstrument-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PLInstrument-Info.plist"; sourceTree = "<group>"; };
+		05411ACC0E47AD0B009E3C18 /* Tests-MacOSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-MacOSX.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05411ACD0E47AD0B009E3C18 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		05411B0C0E47B385009E3C18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		057707BF0ECA55E600103B8A /* Profiler-iPhoneOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profiler-iPhoneOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		057707C10ECA55E600103B8A /* Profiler-iPhoneOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Profiler-iPhoneOS-Info.plist"; sourceTree = "<group>"; };
+		057707CF0ECA562500103B8A /* Profiler-MacOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profiler-MacOSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		057707D10ECA562500103B8A /* Profiler-MacOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Profiler-MacOSX-Info.plist"; sourceTree = "<group>"; };
+		05D9F90E0EFDCE6300D907BD /* PLInstrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLInstrument.h; sourceTree = "<group>"; };
+		05D9F90F0EFDCE6300D907BD /* PLInstrumentCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLInstrumentCase.h; sourceTree = "<group>"; };
+		05D9F9100EFDCE6300D907BD /* PLInstrumentCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLInstrumentCase.m; sourceTree = "<group>"; };
+		05D9F9110EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLInstrumentConsoleResultHandler.h; sourceTree = "<group>"; };
+		05D9F9120EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLInstrumentConsoleResultHandler.m; sourceTree = "<group>"; };
+		05D9F9130EFDCE6300D907BD /* PLInstrumentObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLInstrumentObjC.h; sourceTree = "<group>"; };
+		05D9F9140EFDCE6300D907BD /* PLInstrumentResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLInstrumentResult.h; sourceTree = "<group>"; };
+		05D9F9150EFDCE6300D907BD /* PLInstrumentResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLInstrumentResult.m; sourceTree = "<group>"; };
+		05D9F9160EFDCE6300D907BD /* PLInstrumentResultHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLInstrumentResultHandler.h; sourceTree = "<group>"; };
+		05D9F9170EFDCE6300D907BD /* PLInstrumentRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLInstrumentRunner.h; sourceTree = "<group>"; };
+		05D9F9180EFDCE6300D907BD /* PLInstrumentRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLInstrumentRunner.m; sourceTree = "<group>"; };
+		05D9F9190EFDCE6300D907BD /* PLInstrumentTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLInstrumentTime.h; sourceTree = "<group>"; };
+		05D9F91A0EFDCE6300D907BD /* PLInstrumentTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLInstrumentTime.m; sourceTree = "<group>"; };
+		05D9F9420EFDCE7500D907BD /* PLInstrumentResultTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLInstrumentResultTests.m; sourceTree = "<group>"; };
+		05D9F9430EFDCE7500D907BD /* PLInstrumentRunnerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLInstrumentRunnerTests.m; sourceTree = "<group>"; };
+		05D9F9440EFDCE7500D907BD /* PLInstrumentTimeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLInstrumentTimeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		052C2E450EE6127E0023E46D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052C2EFA0EE613E40023E46D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05389E800EE6111600F8AA6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05411AC90E47AD0B009E3C18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052C2FFC0EE61CFA0023E46D /* PLInstrument.framework in Frameworks */,
+				05411B0E0E47B385009E3C18 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057707BD0ECA55E600103B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057707CD0ECA562500103B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				052C30260EE61D910023E46D /* PLInstrument.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05411B0B0E47B361009E3C18 /* Linked Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				05411B0C0E47B385009E3C18 /* Foundation.framework */,
+			);
+			name = "Linked Libraries";
+			sourceTree = "<group>";
+		};
+		05411BED0E47D960009E3C18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05389E9E0EE6116600F8AA6F /* PLInstrument-Info.plist */,
+				057707C10ECA55E600103B8A /* Profiler-iPhoneOS-Info.plist */,
+				057707D10ECA562500103B8A /* Profiler-MacOSX-Info.plist */,
+				05411ACD0E47AD0B009E3C18 /* Tests-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		057708DD0ECA738000103B8A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		08FB7794FE84155DC02AAC07 /* ActorKit */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				057708DD0ECA738000103B8A /* Components */,
+				05411BED0E47D960009E3C18 /* Resources */,
+				05411B0B0E47B361009E3C18 /* Linked Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = ActorKit;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				05D9F9420EFDCE7500D907BD /* PLInstrumentResultTests.m */,
+				05D9F9430EFDCE7500D907BD /* PLInstrumentRunnerTests.m */,
+				05D9F90E0EFDCE6300D907BD /* PLInstrument.h */,
+				05D9F90F0EFDCE6300D907BD /* PLInstrumentCase.h */,
+				05D9F9100EFDCE6300D907BD /* PLInstrumentCase.m */,
+				05D9F9110EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.h */,
+				05D9F9120EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.m */,
+				05D9F9130EFDCE6300D907BD /* PLInstrumentObjC.h */,
+				05D9F9140EFDCE6300D907BD /* PLInstrumentResult.h */,
+				05D9F9150EFDCE6300D907BD /* PLInstrumentResult.m */,
+				05D9F9160EFDCE6300D907BD /* PLInstrumentResultHandler.h */,
+				05D9F9170EFDCE6300D907BD /* PLInstrumentRunner.h */,
+				05D9F9180EFDCE6300D907BD /* PLInstrumentRunner.m */,
+				05D9F9190EFDCE6300D907BD /* PLInstrumentTime.h */,
+				05D9F91A0EFDCE6300D907BD /* PLInstrumentTime.m */,
+				05D9F9440EFDCE7500D907BD /* PLInstrumentTimeTests.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05411ACC0E47AD0B009E3C18 /* Tests-MacOSX.octest */,
+				057707BF0ECA55E600103B8A /* Profiler-iPhoneOS.app */,
+				057707CF0ECA562500103B8A /* Profiler-MacOSX.app */,
+				05389E820EE6111600F8AA6F /* PLInstrument.framework */,
+				052C2E470EE6127E0023E46D /* libPLInstrument-iphoneos.a */,
+				052C2EFC0EE613E40023E46D /* libPLInstrument-iphonesimulator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		052C2E430EE6127E0023E46D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9F9280EFDCE6300D907BD /* PLInstrument.h in Headers */,
+				05D9F9290EFDCE6300D907BD /* PLInstrumentCase.h in Headers */,
+				05D9F92B0EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.h in Headers */,
+				05D9F92D0EFDCE6300D907BD /* PLInstrumentObjC.h in Headers */,
+				05D9F92E0EFDCE6300D907BD /* PLInstrumentResult.h in Headers */,
+				05D9F9300EFDCE6300D907BD /* PLInstrumentResultHandler.h in Headers */,
+				05D9F9310EFDCE6300D907BD /* PLInstrumentRunner.h in Headers */,
+				05D9F9330EFDCE6300D907BD /* PLInstrumentTime.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052C2EF80EE613E40023E46D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9F9350EFDCE6300D907BD /* PLInstrument.h in Headers */,
+				05D9F9360EFDCE6300D907BD /* PLInstrumentCase.h in Headers */,
+				05D9F9380EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.h in Headers */,
+				05D9F93A0EFDCE6300D907BD /* PLInstrumentObjC.h in Headers */,
+				05D9F93B0EFDCE6300D907BD /* PLInstrumentResult.h in Headers */,
+				05D9F93D0EFDCE6300D907BD /* PLInstrumentResultHandler.h in Headers */,
+				05D9F93E0EFDCE6300D907BD /* PLInstrumentRunner.h in Headers */,
+				05D9F9400EFDCE6300D907BD /* PLInstrumentTime.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05389E7D0EE6111600F8AA6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9F91B0EFDCE6300D907BD /* PLInstrument.h in Headers */,
+				05D9F91C0EFDCE6300D907BD /* PLInstrumentCase.h in Headers */,
+				05D9F91E0EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.h in Headers */,
+				05D9F9200EFDCE6300D907BD /* PLInstrumentObjC.h in Headers */,
+				05D9F9210EFDCE6300D907BD /* PLInstrumentResult.h in Headers */,
+				05D9F9230EFDCE6300D907BD /* PLInstrumentResultHandler.h in Headers */,
+				05D9F9240EFDCE6300D907BD /* PLInstrumentRunner.h in Headers */,
+				05D9F9260EFDCE6300D907BD /* PLInstrumentTime.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		052C2E460EE6127E0023E46D /* PLInstrument-iPhoneOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052C2EDA0EE613400023E46D /* Build configuration list for PBXNativeTarget "PLInstrument-iPhoneOS" */;
+			buildPhases = (
+				052C2E430EE6127E0023E46D /* Headers */,
+				052C2E440EE6127E0023E46D /* Sources */,
+				052C2E450EE6127E0023E46D /* Frameworks */,
+				052C2E590EE612D40023E46D /* Create Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052C2F3F0EE616640023E46D /* PBXTargetDependency */,
+			);
+			name = "PLInstrument-iPhoneOS";
+			productName = "ActorKit-iPhoneOS";
+			productReference = 052C2E470EE6127E0023E46D /* libPLInstrument-iphoneos.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		052C2EFB0EE613E40023E46D /* PLInstrument-iPhoneSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 052C2F180EE614120023E46D /* Build configuration list for PBXNativeTarget "PLInstrument-iPhoneSimulator" */;
+			buildPhases = (
+				052C2EF80EE613E40023E46D /* Headers */,
+				052C2EF90EE613E40023E46D /* Sources */,
+				052C2EFA0EE613E40023E46D /* Frameworks */,
+				052C2F230EE6149F0023E46D /* Create Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052C2F410EE616670023E46D /* PBXTargetDependency */,
+			);
+			name = "PLInstrument-iPhoneSimulator";
+			productName = "ActorKit-iPhoneSimulator";
+			productReference = 052C2EFC0EE613E40023E46D /* libPLInstrument-iphonesimulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		05389E810EE6111600F8AA6F /* PLInstrument-MacOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05389E860EE6111700F8AA6F /* Build configuration list for PBXNativeTarget "PLInstrument-MacOSX" */;
+			buildPhases = (
+				05389E7D0EE6111600F8AA6F /* Headers */,
+				05389E7E0EE6111600F8AA6F /* Resources */,
+				05389E7F0EE6111600F8AA6F /* Sources */,
+				05389E800EE6111600F8AA6F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PLInstrument-MacOSX";
+			productName = "ActorKit-MacOSX";
+			productReference = 05389E820EE6111600F8AA6F /* PLInstrument.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		05411ACB0E47AD0B009E3C18 /* Tests-MacOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05411AD10E47AD0C009E3C18 /* Build configuration list for PBXNativeTarget "Tests-MacOSX" */;
+			buildPhases = (
+				05411AC70E47AD0B009E3C18 /* Resources */,
+				052C30020EE61D030023E46D /* Copy Frameworks */,
+				05411AC80E47AD0B009E3C18 /* Sources */,
+				05411AC90E47AD0B009E3C18 /* Frameworks */,
+				05411ACA0E47AD0B009E3C18 /* Run Tests */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052C2EDC0EE613420023E46D /* PBXTargetDependency */,
+			);
+			name = "Tests-MacOSX";
+			productName = Tests;
+			productReference = 05411ACC0E47AD0B009E3C18 /* Tests-MacOSX.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		057707BE0ECA55E600103B8A /* Profiler-iPhoneOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057707C40ECA55E700103B8A /* Build configuration list for PBXNativeTarget "Profiler-iPhoneOS" */;
+			buildPhases = (
+				057707BB0ECA55E600103B8A /* Resources */,
+				057707BC0ECA55E600103B8A /* Sources */,
+				057707BD0ECA55E600103B8A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052C2F500EE616E60023E46D /* PBXTargetDependency */,
+				052C2F4E0EE616E60023E46D /* PBXTargetDependency */,
+			);
+			name = "Profiler-iPhoneOS";
+			productName = iPhoneProfiler;
+			productReference = 057707BF0ECA55E600103B8A /* Profiler-iPhoneOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		057707CE0ECA562500103B8A /* Profiler-MacOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 057707D40ECA562600103B8A /* Build configuration list for PBXNativeTarget "Profiler-MacOSX" */;
+			buildPhases = (
+				057707CB0ECA562500103B8A /* Resources */,
+				052C30370EE61DB90023E46D /* Copy Frameworks */,
+				057707CC0ECA562500103B8A /* Sources */,
+				057707CD0ECA562500103B8A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				052C30290EE61D930023E46D /* PBXTargetDependency */,
+			);
+			name = "Profiler-MacOSX";
+			productName = MacOSProfiler;
+			productReference = 057707CF0ECA562500103B8A /* Profiler-MacOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "PLInstrument" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* ActorKit */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				052C2F190EE6148B0023E46D /* PLInstrument */,
+				05389E810EE6111600F8AA6F /* PLInstrument-MacOSX */,
+				052C2E460EE6127E0023E46D /* PLInstrument-iPhoneOS */,
+				052C2EFB0EE613E40023E46D /* PLInstrument-iPhoneSimulator */,
+				05411ACB0E47AD0B009E3C18 /* Tests-MacOSX */,
+				057707BE0ECA55E600103B8A /* Profiler-iPhoneOS */,
+				057707CE0ECA562500103B8A /* Profiler-MacOSX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05389E7E0EE6111600F8AA6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05411AC70E47AD0B009E3C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057707BB0ECA55E600103B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057707CB0ECA562500103B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		052C2E590EE612D40023E46D /* Create Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Create Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Copy in the canonical framework\ntar -C \"${BUILD_DIR}/${CONFIGURATION}-${PL_CANONICAL_PLATFORM}\" -cf - \"${PL_CANONICAL_PRODUCT}.framework\" | tar -C \"${BUILT_PRODUCTS_DIR}\" -xf -\n\n# Copy in the static library we'll be using to replace the canonical framework's dylib\ncp \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PL_CANONICAL_PRODUCT}.framework/Versions/Current/${PL_CANONICAL_PRODUCT}\"";
+		};
+		052C2F230EE6149F0023E46D /* Create Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Create Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Copy in the canonical framework\ntar -C \"${BUILD_DIR}/${CONFIGURATION}-${PL_CANONICAL_PLATFORM}\" -cf - \"${PL_CANONICAL_PRODUCT}.framework\" | tar -C \"${BUILT_PRODUCTS_DIR}\" -xf -\n\n# Copy in the static library we'll be using to replace the canonical framework's dylib\ncp \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PL_CANONICAL_PRODUCT}.framework/Versions/Current/${PL_CANONICAL_PRODUCT}\"";
+		};
+		05411ACA0E47AD0B009E3C18 /* Run Tests */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Tests";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		052C2E440EE6127E0023E46D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9F92A0EFDCE6300D907BD /* PLInstrumentCase.m in Sources */,
+				05D9F92C0EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.m in Sources */,
+				05D9F92F0EFDCE6300D907BD /* PLInstrumentResult.m in Sources */,
+				05D9F9320EFDCE6300D907BD /* PLInstrumentRunner.m in Sources */,
+				05D9F9340EFDCE6300D907BD /* PLInstrumentTime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		052C2EF90EE613E40023E46D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9F9370EFDCE6300D907BD /* PLInstrumentCase.m in Sources */,
+				05D9F9390EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.m in Sources */,
+				05D9F93C0EFDCE6300D907BD /* PLInstrumentResult.m in Sources */,
+				05D9F93F0EFDCE6300D907BD /* PLInstrumentRunner.m in Sources */,
+				05D9F9410EFDCE6300D907BD /* PLInstrumentTime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05389E7F0EE6111600F8AA6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9F91D0EFDCE6300D907BD /* PLInstrumentCase.m in Sources */,
+				05D9F91F0EFDCE6300D907BD /* PLInstrumentConsoleResultHandler.m in Sources */,
+				05D9F9220EFDCE6300D907BD /* PLInstrumentResult.m in Sources */,
+				05D9F9250EFDCE6300D907BD /* PLInstrumentRunner.m in Sources */,
+				05D9F9270EFDCE6300D907BD /* PLInstrumentTime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05411AC80E47AD0B009E3C18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D9F9450EFDCE7500D907BD /* PLInstrumentResultTests.m in Sources */,
+				05D9F9460EFDCE7500D907BD /* PLInstrumentRunnerTests.m in Sources */,
+				05D9F9470EFDCE7500D907BD /* PLInstrumentTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057707BC0ECA55E600103B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		057707CC0ECA562500103B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		052C2EDC0EE613420023E46D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05389E810EE6111600F8AA6F /* PLInstrument-MacOSX */;
+			targetProxy = 052C2EDB0EE613420023E46D /* PBXContainerItemProxy */;
+		};
+		052C2F1D0EE614950023E46D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052C2EFB0EE613E40023E46D /* PLInstrument-iPhoneSimulator */;
+			targetProxy = 052C2F1C0EE614950023E46D /* PBXContainerItemProxy */;
+		};
+		052C2F1F0EE614950023E46D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052C2E460EE6127E0023E46D /* PLInstrument-iPhoneOS */;
+			targetProxy = 052C2F1E0EE614950023E46D /* PBXContainerItemProxy */;
+		};
+		052C2F210EE614950023E46D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05389E810EE6111600F8AA6F /* PLInstrument-MacOSX */;
+			targetProxy = 052C2F200EE614950023E46D /* PBXContainerItemProxy */;
+		};
+		052C2F3F0EE616640023E46D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05389E810EE6111600F8AA6F /* PLInstrument-MacOSX */;
+			targetProxy = 052C2F3E0EE616640023E46D /* PBXContainerItemProxy */;
+		};
+		052C2F410EE616670023E46D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05389E810EE6111600F8AA6F /* PLInstrument-MacOSX */;
+			targetProxy = 052C2F400EE616670023E46D /* PBXContainerItemProxy */;
+		};
+		052C2F4E0EE616E60023E46D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052C2EFB0EE613E40023E46D /* PLInstrument-iPhoneSimulator */;
+			targetProxy = 052C2F4D0EE616E60023E46D /* PBXContainerItemProxy */;
+		};
+		052C2F500EE616E60023E46D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 052C2E460EE6127E0023E46D /* PLInstrument-iPhoneOS */;
+			targetProxy = 052C2F4F0EE616E60023E46D /* PBXContainerItemProxy */;
+		};
+		052C2FD30EE61C230023E46D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05411ACB0E47AD0B009E3C18 /* Tests-MacOSX */;
+			targetProxy = 052C2FD20EE61C230023E46D /* PBXContainerItemProxy */;
+		};
+		052C30290EE61D930023E46D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05389E810EE6111600F8AA6F /* PLInstrument-MacOSX */;
+			targetProxy = 052C30280EE61D930023E46D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052C2E480EE6127F0023E46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = "PLInstrument$(EFFECTIVE_PLATFORM_NAME)";
+				SDKROOT = iphoneos2.0;
+			};
+			name = Debug;
+		};
+		052C2E490EE6127F0023E46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = "ActorKit$(EFFECTIVE_PLATFORM_NAME)";
+				SDKROOT = iphoneos2.0;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		052C2EFD0EE613E40023E46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = "PLInstrument$(EFFECTIVE_PLATFORM_NAME)";
+				SDKROOT = iphonesimulator2.0;
+			};
+			name = Debug;
+		};
+		052C2EFE0EE613E40023E46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = "ActorKit$(EFFECTIVE_PLATFORM_NAME)";
+				SDKROOT = iphonesimulator2.0;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		052C2F1A0EE6148B0023E46D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = ActorKit;
+			};
+			name = Debug;
+		};
+		052C2F1B0EE6148B0023E46D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = ActorKit;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		05389E840EE6111700F8AA6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EFFECTIVE_PLATFORM_NAME = "-MacOSX";
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Resources/PLInstrument-Info.plist";
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = PLInstrument;
+				SDKROOT = macosx10.4;
+			};
+			name = Debug;
+		};
+		05389E850EE6111700F8AA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EFFECTIVE_PLATFORM_NAME = "-MacOSX";
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Resources/PLInstrument-Info.plist";
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = ActorKit;
+				SDKROOT = macosx10.4;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		05411ACF0E47AD0C009E3C18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EFFECTIVE_PLATFORM_NAME = "-MacOSX";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Resources/Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_CFLAGS = "-DACTOR_PRIVATE_API";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Tests-MacOSX";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		05411AD00E47AD0C009E3C18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EFFECTIVE_PLATFORM_NAME = "-MacOSX";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "Resources/Tests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_CFLAGS = "-DACTOR_PRIVATE_API";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Tests-MacOSX";
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		057707C20ECA55E700103B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "Resources/Profiler-iPhoneOS-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+					"-L\"${CONFIGURATION_BUILD_DIR}\"",
+					"-l\"ActorKit${EFFECTIVE_PLATFORM_NAME}\"",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Profiler-iPhoneOS";
+				SDKROOT = iphoneos2.0;
+			};
+			name = Debug;
+		};
+		057707C30ECA55E700103B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "Resources/Profiler-iPhoneOS-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+					"-L\"${CONFIGURATION_BUILD_DIR}\"",
+					"-l\"ActorKit${EFFECTIVE_PLATFORM_NAME}\"",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Profiler-iPhoneOS";
+				SDKROOT = iphoneos2.0;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		057707D20ECA562600103B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EFFECTIVE_PLATFORM_NAME = "-MacOSX";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Resources/Profiler-MacOSX-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Profiler-MacOSX";
+			};
+			name = Debug;
+		};
+		057707D30ECA562600103B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EFFECTIVE_PLATFORM_NAME = "-MacOSX";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "Resources/Profiler-MacOSX-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/build/Debug\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Profiler-MacOSX";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				PL_CANONICAL_PLATFORM = MacOSX;
+				PL_CANONICAL_PRODUCT = PLInstrument;
+				PREBINDING = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Werror",
+				);
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DACTOR_PRIVATE_API=1";
+				PL_CANONICAL_PLATFORM = MacOSX;
+				PL_CANONICAL_PRODUCT = ActorKit;
+				PREBINDING = NO;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Werror",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052C2EDA0EE613400023E46D /* Build configuration list for PBXNativeTarget "PLInstrument-iPhoneOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052C2E480EE6127F0023E46D /* Debug */,
+				052C2E490EE6127F0023E46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052C2F180EE614120023E46D /* Build configuration list for PBXNativeTarget "PLInstrument-iPhoneSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052C2EFD0EE613E40023E46D /* Debug */,
+				052C2EFE0EE613E40023E46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		052C2F290EE614AD0023E46D /* Build configuration list for PBXAggregateTarget "PLInstrument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				052C2F1A0EE6148B0023E46D /* Debug */,
+				052C2F1B0EE6148B0023E46D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05389E860EE6111700F8AA6F /* Build configuration list for PBXNativeTarget "PLInstrument-MacOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05389E840EE6111700F8AA6F /* Debug */,
+				05389E850EE6111700F8AA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05411AD10E47AD0C009E3C18 /* Build configuration list for PBXNativeTarget "Tests-MacOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05411ACF0E47AD0C009E3C18 /* Debug */,
+				05411AD00E47AD0C009E3C18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		057707C40ECA55E700103B8A /* Build configuration list for PBXNativeTarget "Profiler-iPhoneOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057707C20ECA55E700103B8A /* Debug */,
+				057707C30ECA55E700103B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		057707D40ECA562600103B8A /* Build configuration list for PBXNativeTarget "Profiler-MacOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				057707D20ECA562600103B8A /* Debug */,
+				057707D30ECA562600103B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "PLInstrument" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
