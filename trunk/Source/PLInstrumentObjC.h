@@ -85,6 +85,8 @@ static inline Method *class_copyMethodList (Class cls, unsigned int *outCount) {
         if (tmp == NULL ) {
             /* realloc failed */
             free(result);
+            if (outCount != NULL)
+                *outCount = 0;
             return NULL;
         } else {
             result = tmp;
