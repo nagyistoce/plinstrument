@@ -726,8 +726,10 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
 				PREBINDING = NO;
-				PRODUCT_NAME = "ActorKit$(EFFECTIVE_PLATFORM_NAME)";
+				PRODUCT_NAME = "PLInstrument$(EFFECTIVE_PLATFORM_NAME)";
 				SDKROOT = iphoneos2.0;
 				ZERO_LINK = NO;
 			};
@@ -756,7 +758,7 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
-				PRODUCT_NAME = "ActorKit$(EFFECTIVE_PLATFORM_NAME)";
+				PRODUCT_NAME = "PLInstrument$(EFFECTIVE_PLATFORM_NAME)";
 				SDKROOT = iphonesimulator2.0;
 				ZERO_LINK = NO;
 			};
@@ -768,7 +770,7 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = ActorKit;
+				PRODUCT_NAME = PLInstrument;
 			};
 			name = Debug;
 		};
@@ -838,7 +840,7 @@
 					AppKit,
 				);
 				PREBINDING = NO;
-				PRODUCT_NAME = ActorKit;
+				PRODUCT_NAME = PLInstrument;
 				SDKROOT = macosx10.4;
 				ZERO_LINK = NO;
 			};
@@ -1054,9 +1056,9 @@
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				OTHER_CFLAGS = "-DACTOR_PRIVATE_API=1";
+				OTHER_CFLAGS = "";
 				PL_CANONICAL_PLATFORM = MacOSX;
-				PL_CANONICAL_PRODUCT = ActorKit;
+				PL_CANONICAL_PRODUCT = PLInstrument;
 				PREBINDING = NO;
 				WARNING_CFLAGS = (
 					"-Wall",
