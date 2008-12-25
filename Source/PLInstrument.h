@@ -33,3 +33,39 @@
 #import "PLInstrumentRunner.h"
 
 #import "PLInstrumentConsoleResultHandler.h"
+
+/**
+ * @defgroup functions Functions Reference
+ */
+
+/**
+ * @defgroup constants Constants Reference
+ */
+
+/**
+ * @defgroup types Types Reference
+ * @ingroup constants
+ */
+
+/**
+ * @defgroup enums Enumerations
+ * @ingroup constants
+ */
+
+/**
+ * @defgroup globals Global Variables
+ * @ingroup constants
+ */
+
+/**
+ * @defgroup exceptions Exceptions
+ * @ingroup constants
+ */
+
+
+/**
+ * @mainpage Plausible Instrument
+ *
+ * @section intro_sec Introduction
+ *
+ */
