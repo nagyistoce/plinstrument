@@ -291,8 +291,6 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				05D9F9420EFDCE7500D907BD /* PLInstrumentResultTests.m */,
-				05D9F9430EFDCE7500D907BD /* PLInstrumentRunnerTests.m */,
 				05D9F90E0EFDCE6300D907BD /* PLInstrument.h */,
 				05D9F90F0EFDCE6300D907BD /* PLInstrumentCase.h */,
 				05D9F9100EFDCE6300D907BD /* PLInstrumentCase.m */,
@@ -301,9 +299,11 @@
 				05D9F9130EFDCE6300D907BD /* PLInstrumentObjC.h */,
 				05D9F9140EFDCE6300D907BD /* PLInstrumentResult.h */,
 				05D9F9150EFDCE6300D907BD /* PLInstrumentResult.m */,
+				05D9F9420EFDCE7500D907BD /* PLInstrumentResultTests.m */,
 				05D9F9160EFDCE6300D907BD /* PLInstrumentResultHandler.h */,
 				05D9F9170EFDCE6300D907BD /* PLInstrumentRunner.h */,
 				05D9F9180EFDCE6300D907BD /* PLInstrumentRunner.m */,
+				05D9F9430EFDCE7500D907BD /* PLInstrumentRunnerTests.m */,
 				05D9F9190EFDCE6300D907BD /* PLInstrumentTime.h */,
 				05D9F91A0EFDCE6300D907BD /* PLInstrumentTime.m */,
 				05D9F9440EFDCE7500D907BD /* PLInstrumentTimeTests.m */,
