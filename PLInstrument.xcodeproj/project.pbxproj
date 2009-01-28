@@ -26,8 +26,6 @@
 /* Begin PBXBuildFile section */
 		052C2FE80EE61CA60023E46D /* PLInstrument.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 05389E820EE6111600F8AA6F /* PLInstrument.framework */; };
 		052C2FFC0EE61CFA0023E46D /* PLInstrument.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05389E820EE6111600F8AA6F /* PLInstrument.framework */; };
-		052C30230EE61D8B0023E46D /* PLInstrument.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 05389E820EE6111600F8AA6F /* PLInstrument.framework */; };
-		052C30260EE61D910023E46D /* PLInstrument.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05389E820EE6111600F8AA6F /* PLInstrument.framework */; };
 		05411B0E0E47B385009E3C18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05411B0C0E47B385009E3C18 /* Foundation.framework */; };
 		05D9F91B0EFDCE6300D907BD /* PLInstrument.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F90E0EFDCE6300D907BD /* PLInstrument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05D9F91C0EFDCE6300D907BD /* PLInstrumentCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D9F90F0EFDCE6300D907BD /* PLInstrumentCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -116,33 +114,12 @@
 			remoteGlobalIDString = 05389E810EE6111600F8AA6F;
 			remoteInfo = "ActorKit-MacOSX";
 		};
-		052C2F4D0EE616E60023E46D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 052C2EFB0EE613E40023E46D;
-			remoteInfo = "ActorKit-iPhoneSimulator";
-		};
-		052C2F4F0EE616E60023E46D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 052C2E460EE6127E0023E46D;
-			remoteInfo = "ActorKit-iPhoneOS";
-		};
 		052C2FD20EE61C230023E46D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 05411ACB0E47AD0B009E3C18;
 			remoteInfo = "Tests-MacOSX";
-		};
-		052C30280EE61D930023E46D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 05389E810EE6111600F8AA6F;
-			remoteInfo = "ActorKit-MacOSX";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -158,17 +135,6 @@
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		052C30370EE61DB90023E46D /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				052C30230EE61D8B0023E46D /* PLInstrument.framework in Copy Frameworks */,
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -179,10 +145,6 @@
 		05411ACC0E47AD0B009E3C18 /* Tests-MacOSX.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests-MacOSX.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05411ACD0E47AD0B009E3C18 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		05411B0C0E47B385009E3C18 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		057707BF0ECA55E600103B8A /* Profiler-iPhoneOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profiler-iPhoneOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		057707C10ECA55E600103B8A /* Profiler-iPhoneOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Profiler-iPhoneOS-Info.plist"; sourceTree = "<group>"; };
-		057707CF0ECA562500103B8A /* Profiler-MacOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Profiler-MacOSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		057707D10ECA562500103B8A /* Profiler-MacOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Profiler-MacOSX-Info.plist"; sourceTree = "<group>"; };
 		05D9F90E0EFDCE6300D907BD /* PLInstrument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLInstrument.h; sourceTree = "<group>"; };
 		05D9F90F0EFDCE6300D907BD /* PLInstrumentCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLInstrumentCase.h; sourceTree = "<group>"; };
 		05D9F9100EFDCE6300D907BD /* PLInstrumentCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLInstrumentCase.m; sourceTree = "<group>"; };
@@ -232,21 +194,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		057707BD0ECA55E600103B8A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		057707CD0ECA562500103B8A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				052C30260EE61D910023E46D /* PLInstrument.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -262,8 +209,6 @@
 			isa = PBXGroup;
 			children = (
 				05389E9E0EE6116600F8AA6F /* PLInstrument-Info.plist */,
-				057707C10ECA55E600103B8A /* Profiler-iPhoneOS-Info.plist */,
-				057707D10ECA562500103B8A /* Profiler-MacOSX-Info.plist */,
 				05411ACD0E47AD0B009E3C18 /* Tests-Info.plist */,
 			);
 			path = Resources;
@@ -315,8 +260,6 @@
 			isa = PBXGroup;
 			children = (
 				05411ACC0E47AD0B009E3C18 /* Tests-MacOSX.octest */,
-				057707BF0ECA55E600103B8A /* Profiler-iPhoneOS.app */,
-				057707CF0ECA562500103B8A /* Profiler-MacOSX.app */,
 				05389E820EE6111600F8AA6F /* PLInstrument.framework */,
 				052C2E470EE6127E0023E46D /* libPLInstrument-iphoneos.a */,
 				052C2EFC0EE613E40023E46D /* libPLInstrument-iphonesimulator.a */,
@@ -451,44 +394,6 @@
 			productReference = 05411ACC0E47AD0B009E3C18 /* Tests-MacOSX.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		057707BE0ECA55E600103B8A /* Profiler-iPhoneOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 057707C40ECA55E700103B8A /* Build configuration list for PBXNativeTarget "Profiler-iPhoneOS" */;
-			buildPhases = (
-				057707BB0ECA55E600103B8A /* Resources */,
-				057707BC0ECA55E600103B8A /* Sources */,
-				057707BD0ECA55E600103B8A /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				052C2F500EE616E60023E46D /* PBXTargetDependency */,
-				052C2F4E0EE616E60023E46D /* PBXTargetDependency */,
-			);
-			name = "Profiler-iPhoneOS";
-			productName = iPhoneProfiler;
-			productReference = 057707BF0ECA55E600103B8A /* Profiler-iPhoneOS.app */;
-			productType = "com.apple.product-type.application";
-		};
-		057707CE0ECA562500103B8A /* Profiler-MacOSX */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 057707D40ECA562600103B8A /* Build configuration list for PBXNativeTarget "Profiler-MacOSX" */;
-			buildPhases = (
-				057707CB0ECA562500103B8A /* Resources */,
-				052C30370EE61DB90023E46D /* Copy Frameworks */,
-				057707CC0ECA562500103B8A /* Sources */,
-				057707CD0ECA562500103B8A /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				052C30290EE61D930023E46D /* PBXTargetDependency */,
-			);
-			name = "Profiler-MacOSX";
-			productName = MacOSProfiler;
-			productReference = 057707CF0ECA562500103B8A /* Profiler-MacOSX.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -506,8 +411,6 @@
 				052C2E460EE6127E0023E46D /* PLInstrument-iPhoneOS */,
 				052C2EFB0EE613E40023E46D /* PLInstrument-iPhoneSimulator */,
 				05411ACB0E47AD0B009E3C18 /* Tests-MacOSX */,
-				057707BE0ECA55E600103B8A /* Profiler-iPhoneOS */,
-				057707CE0ECA562500103B8A /* Profiler-MacOSX */,
 			);
 		};
 /* End PBXProject section */
@@ -521,20 +424,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		05411AC70E47AD0B009E3C18 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		057707BB0ECA55E600103B8A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		057707CB0ECA562500103B8A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -635,20 +524,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		057707BC0ECA55E600103B8A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		057707CC0ECA562500103B8A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -682,25 +557,10 @@
 			target = 05389E810EE6111600F8AA6F /* PLInstrument-MacOSX */;
 			targetProxy = 052C2F400EE616670023E46D /* PBXContainerItemProxy */;
 		};
-		052C2F4E0EE616E60023E46D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 052C2EFB0EE613E40023E46D /* PLInstrument-iPhoneSimulator */;
-			targetProxy = 052C2F4D0EE616E60023E46D /* PBXContainerItemProxy */;
-		};
-		052C2F500EE616E60023E46D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 052C2E460EE6127E0023E46D /* PLInstrument-iPhoneOS */;
-			targetProxy = 052C2F4F0EE616E60023E46D /* PBXContainerItemProxy */;
-		};
 		052C2FD30EE61C230023E46D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 05411ACB0E47AD0B009E3C18 /* Tests-MacOSX */;
 			targetProxy = 052C2FD20EE61C230023E46D /* PBXContainerItemProxy */;
-		};
-		052C30290EE61D930023E46D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 05389E810EE6111600F8AA6F /* PLInstrument-MacOSX */;
-			targetProxy = 052C30280EE61D930023E46D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -904,131 +764,6 @@
 			};
 			name = Release;
 		};
-		057707C20ECA55E700103B8A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
-				INFOPLIST_FILE = "Resources/Profiler-iPhoneOS-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/build/Debug\"",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-framework",
-					Foundation,
-					"-framework",
-					UIKit,
-					"-L\"${CONFIGURATION_BUILD_DIR}\"",
-					"-l\"ActorKit${EFFECTIVE_PLATFORM_NAME}\"",
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = "Profiler-iPhoneOS";
-				SDKROOT = iphoneos2.0;
-			};
-			name = Debug;
-		};
-		057707C30ECA55E700103B8A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
-				INFOPLIST_FILE = "Resources/Profiler-iPhoneOS-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/build/Debug\"",
-				);
-				ONLY_ACTIVE_ARCH = NO;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-framework",
-					Foundation,
-					"-framework",
-					UIKit,
-					"-L\"${CONFIGURATION_BUILD_DIR}\"",
-					"-l\"ActorKit${EFFECTIVE_PLATFORM_NAME}\"",
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = "Profiler-iPhoneOS";
-				SDKROOT = iphoneos2.0;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		057707D20ECA562600103B8A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				EFFECTIVE_PLATFORM_NAME = "-MacOSX";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Resources/Profiler-MacOSX-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/build/Debug\"",
-				);
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-					"-ObjC",
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = "Profiler-MacOSX";
-			};
-			name = Debug;
-		};
-		057707D30ECA562600103B8A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				EFFECTIVE_PLATFORM_NAME = "-MacOSX";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Resources/Profiler-MacOSX-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/build/Debug\"",
-				);
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-					"-ObjC",
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = "Profiler-MacOSX";
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 		1DEB91F008733DB70010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1111,24 +846,6 @@
 			buildConfigurations = (
 				05411ACF0E47AD0C009E3C18 /* Debug */,
 				05411AD00E47AD0C009E3C18 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		057707C40ECA55E700103B8A /* Build configuration list for PBXNativeTarget "Profiler-iPhoneOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				057707C20ECA55E700103B8A /* Debug */,
-				057707C30ECA55E700103B8A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		057707D40ECA562600103B8A /* Build configuration list for PBXNativeTarget "Profiler-MacOSX" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				057707D20ECA562600103B8A /* Debug */,
-				057707D30ECA562600103B8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
