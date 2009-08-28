@@ -569,13 +569,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 2.2;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "PLInstrument$(EFFECTIVE_PLATFORM_NAME)";
-				SDKROOT = iphoneos2.0;
+				SDKROOT = iphoneos3.0;
 			};
 			name = Debug;
 		};
@@ -583,14 +585,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 2.2;
 				OTHER_CFLAGS = "";
 				OTHER_CPLUSPLUSFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = "PLInstrument$(EFFECTIVE_PLATFORM_NAME)";
-				SDKROOT = iphoneos2.0;
+				SDKROOT = iphoneos3.0;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -599,13 +603,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "PLInstrument$(EFFECTIVE_PLATFORM_NAME)";
-				SDKROOT = iphonesimulator2.0;
+				SDKROOT = iphonesimulator3.0;
 			};
 			name = Debug;
 		};
@@ -613,13 +618,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "PLInstrument$(EFFECTIVE_PLATFORM_NAME)";
-				SDKROOT = iphonesimulator2.0;
+				SDKROOT = iphonesimulator3.0;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -661,6 +667,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = 4.0;
 				INFOPLIST_FILE = "Resources/PLInstrument-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
@@ -691,6 +698,7 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				GCC_VERSION = 4.0;
 				INFOPLIST_FILE = "Resources/PLInstrument-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
 				OTHER_LDFLAGS = (
