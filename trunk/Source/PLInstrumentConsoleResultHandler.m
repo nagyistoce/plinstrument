@@ -40,7 +40,7 @@
 - (void) willExecuteInstrumentationSuite: (PLInstrumentCase *) instrumentation {
     NSString *output = [NSString stringWithFormat: @"Instrumentation suite '%s' started at %@\n", 
                         class_getName([instrumentation class]), [NSDate date]];
-    fprintf(stderr, [output UTF8String]);
+    fprintf(stderr, "%s", [output UTF8String]);
 }
 
 
@@ -48,7 +48,7 @@
 - (void) didExecuteInstrumentationSuite: (PLInstrumentCase *) instrumentation {
     NSString *output = [NSString stringWithFormat: @"Instrumentation suite '%s' finished at %@\n", 
                         class_getName([instrumentation class]), [NSDate date]];
-    fprintf(stderr, [output UTF8String]);
+    fprintf(stderr, "%s", [output UTF8String]);
 }
 
 
@@ -57,7 +57,7 @@
     NSString *output = [NSString stringWithFormat: @"Instrumentation case -[%s %s] completed (%lf μs/iteration) at %@\n", 
                         class_getName([instrumentation class]), selector, PLITimeIntervalToMicroseconds([result intervalPerIteration]), [NSDate date]];
 
-    fprintf(stderr, [output UTF8String]);
+    fprintf(stderr, "%s", [output UTF8String]);
 }
 
 // from PLInstrumentResultHandler protocol
@@ -65,7 +65,7 @@
     NSString *output = [NSString stringWithFormat: @"Instrumentation case -[%s %s] failed (%@) at %@\n", 
                         class_getName([instrumentation class]), selector, reason, [NSDate date]];
     
-    fprintf(stderr, [output UTF8String]);
+    fprintf(stderr, "%s", [output UTF8String]);
 }
 
 
