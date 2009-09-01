@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:docset="http://developer.apple.com/rss/docset_extensions" xml:lang="en">
+    <id>http://plinstrument.googlecode.com/svn//xcode-docset//plinstrument-1.0.atom/20090831195906</id>
+    <title type="text">Plausible Instrument 1.0</title>
+    <link rel="self" href="http://plinstrument.googlecode.com/svn//xcode-docset//plinstrument-1.0.atom"></link>
+    <updated>2009-08-31T19:59:06-07:00</updated>
+    <entry>
+        <id>tag:plinstrument.googlecode.com,2009-08-31:com.plausiblelabs.PLInstrument.docset/1.0.0</id>
+        <title type="text">Plausible Instrument</title>
+        <updated>2009-08-31T19:59:06-07:00</updated>
+        <content type="text">Plausible Instrument (v1.0.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://plinstrument.googlecode.com/svn//xcode-docset//com.plausiblelabs.PLInstrument-1.0.xar" length="267692"></link>
+        <docset:identifier>com.plausiblelabs.PLInstrument.docset</docset:identifier>
+        <docset:version>1.0.0</docset:version>
+    </entry>
+</feed>
