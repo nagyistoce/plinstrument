@@ -32,8 +32,7 @@
 #import <mach/mach.h>
 #import <mach/mach_time.h>
 
-/** An opaque implementation-defined time measurement. This measurement may not remain valid across invocations
- * and must not be stored. */
+/** An opaque implementation-defined time measurement. This measurement may not remain valid across program invocations. */
 typedef uint64_t PLIAbsoluteTime;
 
 /** A time interval, in nanoseconds. */
