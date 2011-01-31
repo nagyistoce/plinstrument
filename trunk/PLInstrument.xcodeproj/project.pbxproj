@@ -146,28 +146,28 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 052C2E460EE6127E0023E46D /* PLInstrument-iPhoneOS */;
+			remoteGlobalIDString = 052C2E460EE6127E0023E46D;
 			remoteInfo = "PLInstrument-iPhoneOS";
 		};
 		055B9E1A10485837008159C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 052C2EFB0EE613E40023E46D /* PLInstrument-iPhoneSimulator */;
+			remoteGlobalIDString = 052C2EFB0EE613E40023E46D;
 			remoteInfo = "PLInstrument-iPhoneSimulator";
 		};
 		055B9E34104858B9008159C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 052C2F190EE6148B0023E46D /* PLInstrument */;
+			remoteGlobalIDString = 052C2F190EE6148B0023E46D;
 			remoteInfo = PLInstrument;
 		};
 		055B9E36104858C6008159C6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 055B9E0D10485826008159C6 /* PLInstrument-iPhone */;
+			remoteGlobalIDString = 055B9E0D10485826008159C6;
 			remoteInfo = "PLInstrument-iPhone";
 		};
 /* End PBXContainerItemProxy section */
@@ -495,7 +495,14 @@
 			isa = PBXProject;
 			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "PLInstrument" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 08FB7794FE84155DC02AAC07 /* ActorKit */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -727,7 +734,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -735,7 +742,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "PLInstrument$(EFFECTIVE_PLATFORM_NAME)";
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -743,7 +750,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -752,7 +759,7 @@
 				OTHER_CPLUSPLUSFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = "PLInstrument$(EFFECTIVE_PLATFORM_NAME)";
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -768,7 +775,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "PLInstrument$(EFFECTIVE_PLATFORM_NAME)";
-				SDKROOT = iphonesimulator3.0;
+				SDKROOT = iphonesimulator;
 			};
 			name = Debug;
 		};
@@ -783,7 +790,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
 				PRODUCT_NAME = "PLInstrument$(EFFECTIVE_PLATFORM_NAME)";
-				SDKROOT = iphonesimulator3.0;
+				SDKROOT = iphonesimulator;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -813,7 +820,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -837,7 +844,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = PLInstrument;
-				SDKROOT = macosx10.4;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -845,7 +852,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -867,7 +874,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = PLInstrument;
-				SDKROOT = macosx10.4;
+				SDKROOT = macosx;
 				ZERO_LINK = NO;
 			};
 			name = Release;
