@@ -107,7 +107,7 @@
 // from PLInstrumentResultHandler protocol
 - (void) didExecuteInstrumentationCase: (PLInstrumentCase *) instrumentation selector: (SEL) selector withResult: (PLInstrumentResult *) result {
     STAssertTrue([instrumentation isKindOfClass: [PLInstrumentRunnerTestsMockCase class]], @"Unexpected suite");
-    STAssertTrue(strcmp((char *) selector, (char *) @selector(instrumentSomething)) == 0, @"Unexpected selector");
+    STAssertTrue(strcmp(sel_getName(selector), sel_getName(@selector(instrumentSomething))) == 0, @"Unexpected selector");
     STAssertNotNil(result, @"Result was nil");
 
     self->ranTestMethod = YES;
