@@ -43,7 +43,7 @@
  * for Mac OS X 10.4 (and in the future, cocotron)
  */
 
-#if MAC_OS_X_VERSION_MIN_REQUIRED < MAC_OS_X_VERSION_10_5
+#if (MAC_OS_X_VERSION_MIN_REQUIRED < MAC_OS_X_VERSION_10_5) && !TARGET_OS_IPHONE
 
 /* Return the class' superclass. */
 #define class_getSuperclass(cls) (cls->super_class)
