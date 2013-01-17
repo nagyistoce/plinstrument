@@ -55,7 +55,7 @@
 // from PLInstrumentResultHandler protocol
 - (void) didExecuteInstrumentationCase: (PLInstrumentCase *) instrumentation selector: (SEL) selector withResult: (PLInstrumentResult *) result {
     NSString *output = [NSString stringWithFormat: @"Instrumentation case -[%s %s] completed (%lf μs/iteration) at %@\n", 
-                        class_getName([instrumentation class]), selector, PLITimeIntervalToMicroseconds([result intervalPerIteration]), [NSDate date]];
+                        class_getName([instrumentation class]), sel_getName(selector), PLITimeIntervalToMicroseconds([result intervalPerIteration]), [NSDate date]];
 
     fprintf(stderr, "%s", [output UTF8String]);
 }
@@ -63,7 +63,7 @@
 // from PLInstrumentResultHandler protocol
 - (void) didSkipInstrumentationCase: (PLInstrumentCase *) instrumentation selector: (SEL) selector reason: (NSString *) reason {
     NSString *output = [NSString stringWithFormat: @"Instrumentation case -[%s %s] failed (%@) at %@\n", 
-                        class_getName([instrumentation class]), selector, reason, [NSDate date]];
+                        class_getName([instrumentation class]), sel_getName(selector), reason, [NSDate date]];
     
     fprintf(stderr, "%s", [output UTF8String]);
 }
